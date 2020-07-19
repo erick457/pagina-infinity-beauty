@@ -1,0 +1,74 @@
+body{
+    background: #000000;
+    color:#ffffff;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    background:#e90ca7;
+    text-shadow: 5px 1px 1px #000000;
+}
+h2{
+    font-size: 40px;
+    text-shadow: 5px 1px 1px #000000;
+}
+h3,h4{
+    font-size: 28px;
+    text-shadow: 5px 1px 1px #000000;
+}
+div{
+    height: 120px;
+    width: 200px;
+    background-color: #000000;
+    margin: 200px 50px;
+    padding: 30px;
+    border: 10px; solid #000;
+    display: inline-block;
+}
+body{
+    background: url(../imagenes/fondo6.jpg);
+    
+    background-attachment: fixed;
+    background-position-x:100%;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background: #b900f1;
+    color:#ffffff;
+    font-size:30px;
+}
+div{
+    width: 50%;
+}
+img{
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 5%;
+    /*box-shadow:5px 5px #020203;*/
+    padding:5px;
+    border: 1px solid #fffbfb;
+}
+.menu{
+    width: 100%;
+    background: #000000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    padding: 10px 20px;
+    display: inline-block;
+    color: #ffffff;
+}
+.menu li a:hover{
+    background: #cccccc;
+    color:#000000
+}
+
